@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        body {background-color: rgb(255, 255, 255);}
+        h1   {color: rgb(0, 0, 0);}
+        p    {color: rgb(0, 0, 0);}
+        .header {padding: 40px;
+                text-align: center;
+                background: #64ffe0;
+                font-size: 28px;}
+        .questions {padding: 20px;
+                text-align: center;
+                background: #ffffff;
+                font-size: 16px;}
+        </style>
+<div class="header">
+    <h1>Volunteer GPS</h1>
+    <p>Please select an ailment and enter the sample size</p></div>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <div class="questions">
+    <form action="/" method="get">
+        <label for="SampleSize">Sample Size</label><br>
+        <input type="number" name="SampleSize"><br><br>
+
+        <input type="radio" id="Cancer" name="CANCER">
+        <label for="Cancer">Cancer</label>
+        <input type="radio" id="HIV" name="HIV">
+        <label for="HIV">HIV</label>
+        <input type="radio" id="ALZHEIMERS" name="ALZHEIMERS">
+        <label for="ALZHEIMERS">Alzheimer's</label><br>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+    <h1>Maximum Number of Cancer Patient Volunteers is 24615 <br>
+        Maximum Number of HIV Patient Volunteers is 1632 <br>
+        Maximum Number of Alzheimer's Patient Volunteers is 7719</h1>
+</body>
+</html>
